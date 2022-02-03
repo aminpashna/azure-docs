@@ -91,6 +91,9 @@ Select **Access Control(IAM)** and then select **Role assignments**.
 You should see your managed identity listed under the **Storage Blob Data Contributor** section with the *Storage Blob Data Contributor* role assigned to it. 
 ![ADLS Gen2 storage account container selection](./media/how-to-grant-workspace-managed-identity-permissions/configure-workspace-managed-identity-15.png)
 
+>[!NOTE]
+>If you are seeing 'Failed to load one or more resources due to forbidden issue, error code 403.' error message, your firewall needs to be verified (client IP address needs to be added in order to avoid the issue).
+
 ## Next steps
 
 Learn more about [Workspace managed identity](../../data-factory/data-factory-service-identity.md?context=/azure/synapse-analytics/context/context&tabs=synapse-analytics)
