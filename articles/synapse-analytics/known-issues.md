@@ -148,7 +148,7 @@ Queries from a serverless SQL pool to Azure Cosmos DB analytical store might fai
 
 The following conditions must be true to confirm this issue:
 
-1) The connection to Azure Cosmos DB analytical store uses a private endpoint. 
+1) The connection to Azure Cosmos DB analytical store uses a private endpoint.
 2) Retrying the query succeeds.
 
 **Workaround**: The engineering team is aware of this behavior and following actions can be taken as quick mitigation:
